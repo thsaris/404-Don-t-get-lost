@@ -1,0 +1,62 @@
+.container {
+    padding-top: 60px;
+}
+
+.container > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin-left: calc(50% - 400px);
+}
+
+.link {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.container-text {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-top: 50px;
+}
+
+.row > .title {
+    font-size: 40px;
+    font-family: revert;
+}
+
+.lower-title {
+    font-size: 50px;
+}
+
+.description {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: revert;
+    width: 260px;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF017B;
+    border-radius: 3em;
+}
+
+.row {
+    display: inline-block;
+}
+
+img {
+    float: right;
+    width: 450px;
+}
